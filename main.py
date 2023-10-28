@@ -1,3 +1,12 @@
+import subprocess
+
+# Define the command to install matplotlib
+install_command = "pip install matplotlib"
+
+# Run the command using subprocess
+subprocess.run(install_command, shell=True)
+
+
 import streamlit as st
 import requests
 import json
