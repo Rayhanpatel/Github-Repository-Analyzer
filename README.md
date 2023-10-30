@@ -5,7 +5,7 @@ Analyze and visualize GitHub repository engagement metrics using Streamlit.
 
 ## Demo
 
-![Demo](/Github-Repository-Analyzer/Demo.gif)
+![Demo](/Demo.gif)
 
 ## Features
 
