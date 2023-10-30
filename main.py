@@ -1,12 +1,3 @@
-import subprocess
-
-# Define the command to install matplotlib
-install_command = "pip install matplotlib"
-
-# Run the command using subprocess
-subprocess.run(install_command, shell=True)
-
-
 import streamlit as st
 import requests
 import json
@@ -21,7 +12,7 @@ repo = st.text_input("Enter repository name:")
 
 if owner and repo:
     # Step 1: Set up authentication
-    token = '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'
+    token = 'ENTER YOU API KEY'
     headers = {'Authorization': f'token {token}'}
 
     # Step 2: Make an API request to get repository information
